@@ -23,7 +23,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     /* Used on doc.jsx / View GraphQL query
     /* Returns the latest commit log for a specific doc file */
     const lastModifiedDate = execSync(
-      `git log -1 --pretty='%ad' --date=format:'%Y/%m/%d' ${node.fileAbsolutePath}`
+      `git log -1 --pretty='%ad' --date=format:"%Y/%m/%d" "${node.fileAbsolutePath}"`
     ).toString()
     actions.createNodeField({
       node,
@@ -32,7 +32,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
     /* Returns the last modified time (SEO)  */
     const lastModifiedTime = execSync(
-      `git log -1 --pretty="format:%cI" ${node.fileAbsolutePath}`
+      `git log -1 --pretty="format:%cI" "${node.fileAbsolutePath}"`
     ).toString();
     actions.createNodeField({
       node,
@@ -148,14 +148,14 @@ exports.sourceNodes = async ({
     .filter((val) => !ignorePaths.includes(val));
 
   const output = {};
-  
+
   paths.forEach((val) => {
     let split = val.split('/');
     split = split.filter((url) => url !== '');
 
     let current = output;
     split.forEach((part) => {
-      current[part] = current[part] || {}; 
+      current[part] = current[part] || {};
       current = current[part];
     });
     current.url = `/${split.join('/')}/`;
@@ -167,7 +167,7 @@ exports.sourceNodes = async ({
   // console.log('Length of all frontmatter from md files', mdFrontmatterCharacterCount)
   excerptCharacterCount = JSON.stringify(excerptCharacterCount);
   excerptCharacterCount = excerptCharacterCount.length;
-  
+
   createNode(prepareNode(mdFrontmatterCharacterCount, 'frontmatterLength'));
   createNode(prepareNode(output.docs, 'leftNavLinks'));
 };
