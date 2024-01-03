@@ -22,7 +22,7 @@ When a Flow is published to the cloud, the Flow will run each time it receives a
 
 Every Flow begins with the **Start** block. When you want to create a Flow to run on the cloud, you'll want to test it locally. You can enter information into the **Start** block by selecting the **Start** block then selecting the gear icon <img alt="Gear icon" src="https://assets.postman.com/postman-docs/icon-settings-v9.jpg#icon" width="16px"> in the right sidebar. This information can either be in text or JSON format. Typically, you'll want to put an example of what an actual webhook will be from the API you're working with. Many APIs include a sample of what their webhook information will look like, but if the API you're working with doesn't you can make one yourself by following the steps in the [Trigger the webhook](#trigger-the-webhook) step.
 
-![Testing Locally](https://assets.postman.com/postman-docs/v10/running-flows-on-the-cloud-test-data-v10-1.gif)
+![Testing Locally](https://assets.postman.com/postman-docs/v10/running-flows-on-the-cloud-test-data-v10-2.gif)
 
 ### Publish your Flow
 
@@ -43,6 +43,10 @@ Select the more actions icon <img alt="More actions icon" src="https://assets.po
 > **Important**
 >
 > Every time you publish a Flow, Postman saves your collections and environments. If you make any changes to these, you will need to republish.
+
+To see a published Flow's live logs, select the more actions icon <img alt="More actions icon" src="https://assets.postman.com/postman-docs/icon-more-actions-v9.jpg#icon" width="16px"> > **View published version > View Live Logs**.
+
+![View live logs](https://assets.postman.com/postman-docs/v10/flows-view-live-logs-v10.gif)
 
 ### Trigger the webhook
 

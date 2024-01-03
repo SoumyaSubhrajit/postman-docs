@@ -49,11 +49,13 @@ For help with any account or billing issues, go to Postman's [Support Center](ht
 
     * [Purchasing add-on resources](#purchasing-add-on-resources)
 
+    * [Purchasing add-on products](#purchasing-add-on-products)
+
+    * [Manage Enterprise solutions licenses](#manage-enterprise-solutions-licenses)
+
     * [Using Auto-Flex](#using-auto-flex)
 
         * [Billing for Auto-Flex](#billing-for-auto-flex)
-
-* [Managing solution access](#managing-solution-access)
 
 * [Canceling your plan](#canceling-your-plan)
 
@@ -71,7 +73,7 @@ The billing overview is your billing dashboard's default view. You can view the 
 
 ### Managing resources
 
-Open the [**Resource usage** dashboard](http://go.postman.co/billing/add-ons/overview) to see your team's usage of mock servers and monitors, APIs created, collection runner runs, image and file storage, Flow steps, performance tests, integrations, and the Postman Cloud Agent. To open the **Resource usage** dashboard, do one of the following:
+Open the [**Resource usage** dashboard](http://go.postman.co/billing/add-ons/overview) to see your team's usage of resources such as mock servers and monitors, APIs created, collection runner runs, image and file storage, and other items. To open the **Resource usage** dashboard, do one of the following:
 
 * **Free users** - In the Postman header, select the menu next to **Upgrade**.
 * **Paid users** - In the Postman header, select **Team**.
@@ -198,10 +200,10 @@ You can change your team's plan and billing cycle in your [billing dashboard](ht
 
 ### Changing your plan
 
-To change your plan, billing frequency, team size, and add-ons, open your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit Plan** on the right.
+To change your plan, billing frequency, team size, and add-ons, open your [billing dashboard](https://go.postman.co/billing/overview) and select **Edit plan** on the right.
 
 1. You can adjust your billing frequency and plan type.
-1. Select **Next** to adjust your team size and add-on seats such as Flow Editor and Enterprise Solutions. You can opt to apply changes right away or on renewal.
+1. Select **Next** to adjust your team size and add-on seats such as Flow Editor, Postbot, and Enterprise solutions. You can opt to apply changes right away or on renewal.
 1. Select **Next** to adjust your team's add-on resources, including monitoring blocks, mock server blocks, and custom domains.
 1. Select **Next** then **Confirm Changes**.
 
@@ -223,13 +225,39 @@ Select to pay **Monthly** or **Annual** and confirm your changes. Note that annu
 
 The base number of monitoring requests, mock server calls, Flow steps, and custom domains included in your plan depends on your [plan type](https://www.postman.com/pricing). You can enable or deactivate overages for monitoring, mock server calls, and Flows by [managing your team's resources](#managing-resources). If enabled, you will be charged on a pay-as-you-go basis. If you are on a Professional plan, you can opt to enable or deactivate pay-as-you-go overages for Flows.
 
-You can purchase more Flow Editor seats and blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
+You can purchase more blocks of monitoring requests, mock server calls, and custom domains by navigating to your [billing dashboard](http://go.postman.co/billing), selecting **Resource usage** on the left, then **Purchase Add-ons** on the right.
 
 Update the number of Flow Editor seats, monitoring blocks, mock server blocks, and custom domains you would like to have included in your team plan, then select **Next** to confirm your changes.
 
+### Purchasing add-on products
+
+> The Postbot add-on is currently available for Free, Basic and Professional plans.
+
+If you are on a Basic or Professional plan, you can purchase Flow Editor and Postbot seats by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit plan** on the right.
+
+Select **Modify Plan** under the plan type for your team. Update the number of Flow Editor and Postbot seats in the **Add-on products** section, then select **Next**. Select **Confirm Changes** to purchase more seats.
+
+You can manage which team members consume Postbot seats from the [product access dashboard](https://go.postman.co/settings/team/products-access). Learn how to [manage your team's access to Postbot](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-access-to-postbot).
+
+If you are a Free plan user, you can purchase Postbot seats by selecting **Upgrade** in the Postman header and navigating to the bundle section to add Postbot. Update the number of Postbot seats and select from Annual or Monthly payment options, then select **Next**. Enter your billing information and payment method, then select **Confirm**.
+
+### Manage Enterprise solutions licenses
+
+> **[Enterprise solutions are available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
+
+As a Team Admin, you can purchase Enterprise solutions licenses for your Enterprise Essentials plan by navigating to your [billing dashboard](https://go.postman.co/billing/overview) and selecting **Edit plan** on the right.
+
+Select **Modify plan** under the plan type for your team. You can also select **Add to Plan** next to the solution you want to purchase more licenses for. Update the number of licenses in the **Solutions** section, then select **Next**. Select **Confirm Changes** to purchase more licenses.
+
+You can manage which team members consume the Enterprise solutions licenses from the [product access dashboard](https://go.postman.co/settings/team/products-access). Learn how to [manage your team's access to Enterprise solutions](/docs/administration/managing-your-team/managing-your-team/#manage-your-teams-access-to-enterprise-solutions).
+
+To learn more about the added capabilities of each solution, see [Enterprise solutions](https://www.postman.com/pricing/#enterprise-solutions).
+
+> [Auto-Flex](#using-auto-flex) enables your team to add more Team members without having to pay upfront. Newly added members to the Team and the solutions will be billed in the next Auto-Flex cycle.
+
 ### Using Auto-Flex
 
-[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. Auto-Flex applies to both plan seats and any add-on seats such as Flow Editor and Enterprise Solutions. With Auto-Flex enabled, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users or provision add-on capabilities to your team members without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
+[Auto-Flex](https://learning.postman.com/auto-flex-policy/) is a flexible billing feature available to Postman teams. Auto-Flex applies to both plan seats and any add-on seats such as Flow Editor, Postbot, and Enterprise solutions. With Auto-Flex enabled, your team can [invite](/docs/administration/managing-your-team/managing-your-team/#inviting-users) users or provision add-on capabilities to your team members without having to pay in advance for more seats, then opt to retain or remove them before being [billed](#billing-for-auto-flex).
 
 All [Postman Basic, Professional, and Enterprise Essentials plans](https://www.postman.com/pricing) have Auto-Flex enabled automatically.
 
@@ -263,22 +291,13 @@ In your [billing dashboard](http://go.postman.co/billing), you can view:
 
 > [Contact Postman support](https://www.postman.com/support/) with any questions about Auto-Flex.
 
-## Managing solution access
-
-> **[Enterprise Solutions are available for Enterprise Essentials plans.](https://www.postman.com/pricing)**
-
-As a Team Admin, you can manage solution access of your team members from your [Product Access](https://go.postman.co/settings/team/products-access) page. To learn more about the added capabilities of each solution, visit [Enterprise Solutions](https://www.postman.com/pricing/).
-
-* To add Team members to a solution, select **Add Members** and select users.
-* To remove Team members from a solution, select the delete icon <img alt="Delete icon" src="https://assets.postman.com/postman-docs/icon-delete-v9.jpg#icon" width="12px"> next to a user.
-
-> [Auto-Flex](#using-auto-flex) enables your team to add more Team members without having to pay upfront. Newly added members to the Team and the solutions will be billed in the next Auto-Flex cycle.
-
 ## Canceling your plan
 
 To cancel your Postman plan, select **Cancel plan** at the bottom of your [billing dashboard](http://go.postman.co/billing).
 
-If you have canceled your Postman plan and want to reverse this action, select **Undo cancelation** next to the cancelation notice on your [billing dashboard](http://go.postman.co/billing).
+If you have canceled your Postman plan and want to reverse this action, select **Undo cancellation** next to the cancellation notice on your [billing dashboard](http://go.postman.co/billing).
+
+If you are on a Free plan with Postbot subscription and want to cancel your Postbot subscription, select **Remove add-on** at the bottom of [billing dashboard](http://go.postman.co/billing).
 
 ## Next steps
 

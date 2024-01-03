@@ -48,9 +48,7 @@ Partner Workspaces enable you to collaborate with external partners directly in 
 
     <img alt="Workspace menu" src="https://assets.postman.com/postman-docs/workspace-switcher-v9.19.jpg" width="300px"/>
 
-1. You can use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
-
-    > You can also apply a workspace template to a newly created workspace. To learn more, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
+1. You can use [workspace templates](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#apply-a-template-to-a-workspace) to help you set up a new workspace. Select a workspace template to populate the workspace with helpful information and sample collections, or select **Blank workspace** to create an empty workspace. Then select **Next**.
 
     <img alt="Create new workspace" src="https://assets.postman.com/postman-docs/v10/create-workspace-and-apply-template-full-screen-v10-2.jpg"/>
 
@@ -76,7 +74,7 @@ Anyone with permissions to change workspace visibility can request to convert a 
 
 Before sharing a Partner Workspace with external collaborators, you can set your partnership up for success by moving or forking relevant elements into it.
 
-You can also use workspace templates to help set up a new partner workspace. For more information, see [Creating workspaces with a template](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#creating-workspaces-with-a-template).
+You can also use workspace templates to help set up a new partner workspace. For more information, see [Apply a template to a workspace](/docs/collaborating-in-postman/using-workspaces/creating-workspaces/#apply-a-template-to-a-workspace).
 
 ### Moving elements to a Partner Workspace
 
@@ -96,7 +94,7 @@ To move an element to a Partner Workspace, do the following:
 
 Items related to what you're moving, such as monitors and mock servers, won't move with the element automatically. For more information, see [Moving elements to team workspaces](/docs/collaborating-in-postman/working-with-your-team/collaborating-in-team-workspaces/#moving-elements-to-team-workspaces).
 
-If you'd like to keep certain elements in other workspaces, you can [fork them into Partner Workspaces](/docs/collaborating-in-postman/using-version-control/forking-entities/#creating-a-fork) to help [keep them up to date](/docs/collaborating-in-postman/using-version-control/forking-entities/#pulling-updates-from-a-parent-element) with any changes to the parent element.
+If you'd like to keep certain elements in other workspaces, you can [fork them into Partner Workspaces](/docs/collaborating-in-postman/using-version-control/forking-elements/#create-a-fork) to help [keep them up to date](/docs/collaborating-in-postman/using-version-control/forking-elements/#pull-updates-from-a-parent-element) with any changes to the parent element.
 
 ## Inviting collaborators to a Partner Workspace
 
@@ -140,7 +138,7 @@ To invite team members to a Partner Workspace, do the following:
 
 A [Partner Manager](/docs/collaborating-in-postman/roles-and-permissions/#partner-team-and-partner-workspace-roles) can view the Partner Workspaces and collections a partner can access. A Partner Manager can also view the Workspace role partners are assigned in each workspace, and the Collection role partners are assigned in each collection. Open your [team dashboard](https://go.postman.co/settings/team/members) and select **View resources** next to a partner. Select a Partner Workspace or collection name to open it in a new tab.
 
-<img alt="View partner workspaces and roles" src="https://assets.postman.com/postman-docs/v10/view-partner-workspaces-and-roles-v10-3.jpg"/>
+<img alt="View Partner Workspaces and roles" src="https://assets.postman.com/postman-docs/v10/view-partner-workspaces-and-roles-v10-3.jpg"/>
 
 ## Collaborating in a Partner Workspace
 
@@ -166,7 +164,7 @@ Workspace Admins and Partner Managers manage workspace settings, users, and role
 
 ### Managing users and roles
 
-You can assign team and Partner Workspace roles based on the functions team members and partners require. You can assign team roles for Partner Workspace roles at the [team level](/docs/administration/managing-your-team/managing-your-team/), and you can assign Partner Workspace roles at the [workspace level](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) and collection level. Learn more about [team and Partner Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-team-and-partner-workspace-roles).
+You can assign team and Partner Workspace roles based on the functions team members and partners require. You can assign team roles for Partner Workspace roles at the [team level](/docs/administration/managing-your-team/managing-your-team/), and you can assign Partner Workspace roles at the [workspace level](/docs/collaborating-in-postman/using-workspaces/managing-workspaces/#managing-workspace-roles) and [collection level](/docs/collaborating-in-postman/requesting-access-to-elements/#managing-element-based-roles). Learn more about [team and Partner Workspace roles](/docs/collaborating-in-postman/roles-and-permissions/#partner-team-and-partner-workspace-roles).
 
 To learn more about collaborating as a team member or partner, see [Collaborating in a Partner Workspace](#collaborating-in-a-partner-workspace).
 

@@ -20,6 +20,7 @@ When you schedule a collection run with the Collection Runner, the scheduled run
 <img alt="Runs tab v10" src="https://assets.postman.com/postman-docs/v10/scheduled-runs-tab-5-v10-13.jpg"/>
 
 > * Scheduled runs execute in the Postman Cloud.
+> * Scheduled runs don't support requests that use files in your local [working directory](/docs/getting-started/installation/settings/#working-directory) to send [body data](/docs/sending-requests/requests/#sending-body-data). Instead, [upload your test data files](/docs/sending-requests/requests/#upload-files-for-shared-requests-and-cloud-runs) to make them available for scheduled runs in the cloud.
 > * Schedules share permissions with their collections. For example, if you have permissions to edit a collection, you'll be able to edit that collection's schedules.
 > * Personal, private, and team workspaces support scheduling collection runs.
 > * If you import or export a collection, its schedules don't import or export with it. However, if you delete a collection, its schedules are deleted also.
@@ -81,7 +82,7 @@ You can schedule a run for the requests in a [collection](/docs/collections/usin
 
     ![Hover and select View v10](https://assets.postman.com/postman-docs/v10/scr-hover-select-view-v10.gif)
 
-1. Each column in the graph represents an individual run. Select a column to see test results and the console log for that run. For more information see [Viewing scheduled collection runs](/docs/collections/running-collections/viewing-scheduled-collection-runs/).
+1. Each column in the graph represents an individual run. Select a column to see test results and the Console log for that run. For more information see [Viewing scheduled collection runs](/docs/collections/running-collections/viewing-scheduled-collection-runs/).
 
     ![Scheduled runs view results v10](https://assets.postman.com/postman-docs/v10/view-scheduled-run-results-2-v10.jpg)
 
