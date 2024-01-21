@@ -107,8 +107,12 @@ export const leftNavItems = [
       {
         name: 'Postman basics',
         subParentSlug: '/docs/getting-started/basics/',
-        slug: '/docs/getting-started/basics/navigating-postman/',
+        slug: '/docs/getting-started/basics/postman-basics/',
         subMenuItems2: [
+          {
+            name: 'Overview',
+            url: '/docs/getting-started/basics/postman-basics/',
+          },
           {
             name: 'The Postman interface',
             url: '/docs/getting-started/basics/navigating-postman/',
@@ -146,8 +150,12 @@ export const leftNavItems = [
       {
         name: 'Install and configure',
         subParentSlug: '/docs/getting-started/installation/',
-        slug: '/docs/getting-started/installation/installation-and-updates/',
+        slug: '/docs/getting-started/installation/install-overview/',
         subMenuItems2: [
+          {
+            name: 'Overview',
+            url: '/docs/getting-started/installation/install-overview/',
+          },
           {
             name: 'Installation and updates',
             url: '/docs/getting-started/installation/installation-and-updates/',
@@ -177,7 +185,7 @@ export const leftNavItems = [
         slug: '/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/',
         subMenuItems2: [
           {
-            name: 'Data import and export',
+            name: 'Overview',
             url: '/docs/getting-started/importing-and-exporting/importing-and-exporting-overview/',
           },
           {
@@ -577,7 +585,7 @@ export const leftNavItems = [
         slug: '/docs/collections/running-collections/running-collections-overview/',
         subMenuItems2: [
           {
-            name: 'Test API functionality',
+            name: 'Overview',
             url: '/docs/collections/running-collections/running-collections-overview/',
           },
           {
@@ -1092,8 +1100,12 @@ export const leftNavItems = [
       {
         name: 'Develop an API',
         subParentSlug: 'developing-an-api',
-        slug: '/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/',
+        slug: '/docs/designing-and-developing-your-api/developing-an-api/develop-an-api/',
         subMenuItems2: [
+          {
+            name: 'Overview',
+            url: '/docs/designing-and-developing-your-api/developing-an-api/develop-an-api/',
+          },
           {
             name: 'Manage API definitions',
             url: '/docs/designing-and-developing-your-api/developing-an-api/defining-an-api/',
@@ -1140,7 +1152,7 @@ export const leftNavItems = [
         ],
       },
       {
-        name: 'Observe APIs',
+        name: 'Observe an API',
         subParentSlug: 'observing-an-api',
         slug: '/docs/designing-and-developing-your-api/observing-an-api/observing-an-api/',
         subMenuItems2: [
@@ -1165,8 +1177,12 @@ export const leftNavItems = [
       {
         name: 'Mock an API',
         subParentSlug: 'mocking-data',
-        slug: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
+        slug: '/docs/designing-and-developing-your-api/mocking-data/mock-an-api/',
         subMenuItems2: [
+          {
+            name: 'Overview',
+            url: '/docs/designing-and-developing-your-api/mocking-data/mock-an-api/',
+          },
           {
             name: 'Set up mock servers',
             url: '/docs/designing-and-developing-your-api/mocking-data/setting-up-mock/',
@@ -1234,7 +1250,7 @@ export const leftNavItems = [
         slug: '/docs/publishing-your-api/run-in-postman/introduction-run-button/',
         subMenuItems2: [
           {
-            name: 'Share with Run in Postman',
+            name: 'Overview',
             url: '/docs/publishing-your-api/run-in-postman/introduction-run-button/',
           },
           {
@@ -1290,7 +1306,7 @@ export const leftNavItems = [
     url: '/docs/administration/admin-overview/',
     subMenuItems1: [
       {
-        name: 'Admin overview',
+        name: 'Overview',
         url: '/docs/administration/admin-overview/',
       },
       {
@@ -1423,7 +1439,7 @@ export const leftNavItems = [
         slug: '/docs/administration/domain-verification-and-capture/domain-capture-overview/',
         subMenuItems2: [
           {
-            name: 'Verify and capture domains',
+            name: 'Overview',
             url: '/docs/administration/domain-verification-and-capture/domain-capture-overview/',
           },
           {
@@ -1449,8 +1465,12 @@ export const leftNavItems = [
   {
     name: 'Billing',
     parentSlug: 'billing',
-    url: '/docs/billing/billing/',
+    url: '/docs/billing/billing-overview/',
     subMenuItems1: [
+      {
+        name: 'Overview',
+        url: '/docs/billing/billing-overview/',
+      },
       {
         name: 'Manage billing',
         url: '/docs/billing/billing/',
@@ -1659,8 +1679,12 @@ export const leftNavItems = [
       {
         name: 'Postman integrations',
         subParentSlug: 'available-integrations',
-        slug: '/docs/integrations/available-integrations/apimatic/',
+        slug: '/docs/integrations/available-integrations/postman-integrations/',
         subMenuItems2: [
+          {
+            name: 'All integrations',
+            url: '/docs/integrations/available-integrations/postman-integrations/',
+          },
           {
             name: 'APIMatic',
             url: '/docs/integrations/available-integrations/apimatic/',
